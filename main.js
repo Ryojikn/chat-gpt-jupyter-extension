@@ -30,7 +30,7 @@ define([
                 prompt: "Explique o código a seguir e retorne o resultado formatado para markdown: " + cellContent,
                 temperature: 0.5,
                 max_tokens: 2048,
-                user: "ryoji"
+                user: "myuser"
             })
         })
             .then(function (response) {
@@ -75,7 +75,7 @@ define([
                 prompt: cellContent,
                 temperature: 0.5,
                 max_tokens: 2048,
-                user: "ryoji"
+                user: "myuser"
             })
         })
             .then(function (response) {
@@ -122,7 +122,7 @@ define([
                 prompt: "Efetue o debug do código a seguir, conforme o código de input" + cellContent + " e o traceback retornado: " + tracebackContent,
                 temperature: 0.5,
                 max_tokens: 2048,
-                user: "ryoji"
+                user: "myuser"
             })
         })
             .then(function (response) {
