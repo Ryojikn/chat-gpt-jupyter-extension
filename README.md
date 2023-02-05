@@ -8,11 +8,11 @@ One of the main reasons that I completely envision that this will be the path is
 Use this little piece of technology with a good heart and thinking of a humble purpose.
 
 ## Features
-Explain - When selecting a jupyter notebook cell, and asking for the tool to explain, it will ask chatgpt what is the explanation behind the code provided in the cell.
+**Explain** - When selecting a jupyter notebook cell, and asking for the tool to explain, it will ask chatgpt what is the explanation behind the code provided in the cell.
 
-Complete - When you don't know what you're trying to accomplish, such as generating some function or creating a scaffolding, describing the task for chatgpt and ask it to complete for you, will return a (not always) working code with little changes needed.
+**Complete** - When you don't know what you're trying to accomplish, such as generating some function or creating a scaffolding, describing the task for chatgpt and ask it to complete for you, will return a (not always) working code with little changes needed.
 
-Debug - If you've got some error in your cell, after selecting the cell, and clicking in the debug button, it will send both input from the cell and the traceback provided inside jupyter notebook, and chatgpt will try to debug it for you.
+**Debug** - If you've got some error in your cell, after selecting the cell, and clicking in the debug button, it will send both input from the cell and the traceback provided inside jupyter notebook, and chatgpt will try to debug it for you.
 
 ## How to install
 
