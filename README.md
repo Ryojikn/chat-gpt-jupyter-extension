@@ -17,9 +17,11 @@ Debug - If you've got some error in your cell, after selecting the cell, and cli
 ## How to install
 
 While in the upper folder, before chatgpt_jupyter_extension repo, execute the command below:
+
     - jupyter nbextension install chat-gpt-jupyter-extension --user
 
 And then make it available through: 
+
     - jupyter nbextension enable chat-gpt-jupyter-extension/main
 
 ## To uninstall, execute the commands below:
