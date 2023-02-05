@@ -17,15 +17,15 @@ Debug - If you've got some error in your cell, after selecting the cell, and cli
 ## How to install
 
 While in the upper folder, before chatgpt_jupyter_extension repo, execute the command below:
-    jupyter nbextension install planet_jupyter --user
+    - jupyter nbextension install chat-gpt-jupyter-extension --user
 
 And then make it available through: 
-    jupyter nbextension enable planet_jupyter/main
+    - jupyter nbextension enable chat-gpt-jupyter-extension/main
 
 ## To uninstall, execute the commands below:
 
-    - jupyter nbextension disable planet_jupyter/main
-    - jupyter nbextension uninstall planet_jupyter
+    - jupyter nbextension disable chat-gpt-jupyter-extension/main
+    - jupyter nbextension uninstall chat-gpt-jupyter-extension
 
 ## Backlog
 - Make it available to be installed through pip
